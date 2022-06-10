@@ -56,6 +56,7 @@ if(cmd==`help`){
        { name: '\u200B', value: '\u200B' },
        {name:'Mapart',value:'Use .mapart with an image attached to start up the command.\n The bot will then ask a couple questions regarding the map, answer them accordingly.\n The bot will then post the map and the entered information in the archive channel.'},
        {name:'Change',value:'Can only be used by Staff to change the output channel'},
+       {name:'exit',value:'Stops the command if you make a oopsie'},
    )
    .setTimestamp()
    message.channel.send({embeds:[helpembed]})
