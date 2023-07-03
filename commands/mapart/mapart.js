@@ -65,6 +65,7 @@ module.exports = {
         
         //const input1=interaction.options.getString("input") ?? 'no input given'; 
         await interaction.guild.channels.cache.get('946517035301629952').send({embeds:[mapEmbed1]})
+        await interaction.reply('Added to archive, Thank you <3')
         //await interaction.reply(`u typed: ${input1}`)
     },
 };

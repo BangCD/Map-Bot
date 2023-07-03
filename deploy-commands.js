@@ -1,9 +1,11 @@
 const { REST, Routes } = require('discord.js');
 //const { clientId, guildId, token } = require('./config.json');
 
-const clientId=process.env.MAP_clientID
+// const clientId=process.env.MAP_clientID
+const clientId='924251203741818891'
 const guildId=process.env.MAP_guildID
-const token=process.env.MAP_TOKEN
+// const token=process.env.MAP_TOKEN
+const token='OTI0MjUxMjAzNzQxODE4ODkx.Ycb2Ag._uM9kXTNlpTeSbYYwRxp3moJzN4';
 const fs = require('node:fs');
 const path = require('node:path');
 
