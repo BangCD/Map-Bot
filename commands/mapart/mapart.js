@@ -41,9 +41,9 @@ module.exports = {
         const madeby=interaction.options.getString('by') ?? "Unknown";
         const size=interaction.options.getString('mapsize') ?? "Unknown";
         const warp=interaction.options.getString('warp') ?? "Unknown";
-        console.log(madeby)
-        console.log(size)
-        console.log(warp)
+        // console.log(madeby)
+        // console.log(size)
+        // console.log(warp)
 
         const mapEmbed1 = new EmbedBuilder()
         .setColor('Random')
@@ -64,7 +64,7 @@ module.exports = {
 
         
         //const input1=interaction.options.getString("input") ?? 'no input given'; 
-        await interaction.guild.channels.cache.get('927571396777877524').send({embeds:[mapEmbed1]})
+        await interaction.guild.channels.cache.get('946517035301629952').send({embeds:[mapEmbed1]})
         //await interaction.reply(`u typed: ${input1}`)
     },
 };
