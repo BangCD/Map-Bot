@@ -14,8 +14,8 @@ const { SlashCommandBuilder } = require('discord.js');
 console.log("Ready!")
 const prefix='.';
 
-// const token=process.env.MAP_TOKEN;
-const token='OTI0MjUxMjAzNzQxODE4ODkx.Ycb2Ag._uM9kXTNlpTeSbYYwRxp3moJzN4';
+const token=process.env.MAP_TOKEN;
+
 
 // const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS] });
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
