@@ -66,7 +66,7 @@ module.exports = {
         //const input1=interaction.options.getString("input") ?? 'no input given'; 
         await interaction.guild.channels.cache.get('946517035301629952').send({embeds:[mapEmbed1]})
 
-        await interaction.guild.channels.cache.get('946517138389221436').send( {files:[ { attachment: attachment} ], content:mapName} )
+        await interaction.guild.channels.cache.get('946517138389221436').send(`${mapName} - ${attachment.url}`)
         await interaction.reply({ content: 'Added to archive, Thank you   <:pepelove:785201288044085289>', ephemeral: true });
         //await interaction.reply(`u typed: ${input1}`)
     },
