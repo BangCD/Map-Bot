@@ -17,6 +17,7 @@ const prefix='.';
 const token=process.env.MAP_TOKEN;
 
 
+
 // const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS] });
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
