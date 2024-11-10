@@ -2,7 +2,7 @@ services:
 - type: web
   name: js
   runtime: node
-  plan: starter
+  plan: free
   buildCommand: node .
   startCommand: node .
   autoDeploy: True
