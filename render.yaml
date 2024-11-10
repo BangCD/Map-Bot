@@ -3,6 +3,6 @@ services:
   name: js
   runtime: node
   plan: free
-  buildCommand: node .
+  buildCommand: npm install discord.js@14.11.0
   startCommand: node .
   autoDeploy: True
