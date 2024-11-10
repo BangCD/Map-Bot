@@ -1,0 +1,11 @@
+preview: 
+  generation: automatic
+
+services:
+- type: web
+  name: js
+  runtime: node
+  plan: starter
+  buildCommand: node .
+  startCommand: node .
+  autoDeploy: True
