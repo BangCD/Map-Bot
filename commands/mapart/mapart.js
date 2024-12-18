@@ -11,8 +11,6 @@ module.exports = {
             option.setName('image')
             .setRequired(true)
             .setDescription('Ingame Image of MapArt'))
-            
-
 
         .addStringOption(option =>
             option.setName('mapname')
